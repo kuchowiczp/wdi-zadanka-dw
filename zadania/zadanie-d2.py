@@ -10,7 +10,7 @@ def num_system_prompt() -> int:
 
     if system not in [2,8,16]:
         print("Błędny system!")
-        return system()
+        return num_system_prompt()
     return system
 
 def num_prime_amount_prompt() -> int:
